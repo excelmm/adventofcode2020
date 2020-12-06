@@ -16,8 +16,7 @@ public class pset3b {
             }
         }
         sc.close();
-        long result = countTrees(map, 1, 1) * countTrees(map, 1, 3) * countTrees(map, 1, 5) * countTrees(map, 1, 7) * countTrees(map, 2, 1);
-        System.out.println(result);
+        System.out.println(countTrees(map, 1, 1) * countTrees(map, 1, 3) * countTrees(map, 1, 5) * countTrees(map, 1, 7) * countTrees(map, 2, 1));
     }
     
     public static long countTrees(char [][] map, int rowinc, int colinc){
