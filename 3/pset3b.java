@@ -16,13 +16,13 @@ public class pset3b {
             }
         }
         sc.close();
-        int result = countTrees(map, 1, 1) * countTrees(map, 1, 3) * countTrees(map, 1, 5) * countTrees(map, 1, 7) * countTrees(map, 2, 1)
+        long result = countTrees(map, 1, 1) * countTrees(map, 1, 3) * countTrees(map, 1, 5) * countTrees(map, 1, 7) * countTrees(map, 2, 1);
         System.out.println(result);
     }
     
-    public static int countTrees(char [][] map, int rowinc, int colinc){
-        int count = 0;
-        int col =0 ;
+    public static long countTrees(char [][] map, int rowinc, int colinc){
+        long count = 0;
+        int col = 0 ;
         int row = 0;
         while(row < 323) {
             if (map[row][col] == '#') {
