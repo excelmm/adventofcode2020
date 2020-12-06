@@ -34,7 +34,6 @@ public class pset3b {
             if (row > 323)
                 break;
         }
-        System.out.println(count);
         return count;
     }
     
