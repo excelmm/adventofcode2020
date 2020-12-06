@@ -17,10 +17,10 @@ def compute(map, row, col):
         if i >= rowlen:
             break
 
-
+    print(count)
     return count
 
-with open("pset3.txt", "r") as f:
+with open("input.txt", "r") as f:
     map = f.read().splitlines()
 
 print(compute(map, 1, 1) * compute(map, 1, 3) * compute(map, 1, 5) * compute(map, 1, 7) * compute(map, 2, 1))

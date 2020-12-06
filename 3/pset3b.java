@@ -2,7 +2,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class pset3a {
+public class pset3b {
+
     public static void main(String[] args) throws FileNotFoundException {
         File file = new File("input.txt");
         Scanner sc = new Scanner(file);
@@ -15,24 +16,27 @@ public class pset3a {
             }
         }
         sc.close();
-
-        System.out.println(countTrees(map));
+        int result = countTrees(map, 1, 1) * countTrees(map, 1, 3) * countTrees(map, 1, 5) * countTrees(map, 1, 7) * countTrees(map, 2, 1)
+        System.out.println(result);
     }
     
-    public static int countTrees(char [][] map){
-        int count=0;
-        int col=0;
-        int row=0;
-        while(row<323) {
+    public static int countTrees(char [][] map, int rowinc, int colinc){
+        int count = 0;
+        int col =0 ;
+        int row = 0;
+        while(row < 323) {
             if (map[row][col] == '#') {
                 count++;
             }
-            row++;
-            col += 3;
-            if (col >= 31) {
+            row += rowinc;
+            col += colinc;
+            if (col >= 31)
                 col -= 31;
-            }
+            if (row > 323)
+                break;
         }
+        System.out.println(count);
         return count;
     }
+    
 }
