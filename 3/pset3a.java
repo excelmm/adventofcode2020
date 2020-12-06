@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class pset3a {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\Users\\Excel PC\\Documents\\GitHub\\excelmm\\adventofcode2020\\3\\pset3.txt");
+        File file = new File("pset3.txt");
         Scanner sc = new Scanner(file);
         char [][] map = new char [323][31];
         for(int i=0; i<323; i++){
