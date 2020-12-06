@@ -1,4 +1,4 @@
-with open("pset1.txt", "r") as f:
+with open("input.txt", "r") as f:
     list = f.read().splitlines()
     
 numlist = []

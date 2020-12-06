@@ -1,4 +1,4 @@
-with open("pset5.txt", "r") as f:
+with open("input.txt", "r") as f:
     inputs = f.read().splitlines()
 
 ids = []

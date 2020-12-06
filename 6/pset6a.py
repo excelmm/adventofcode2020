@@ -1,4 +1,4 @@
-with open("pset6.txt", "r") as f:
+with open("input.txt", "r") as f:
     text = f.read().splitlines()
 
 count = 0
