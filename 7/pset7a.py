@@ -19,10 +19,6 @@ for i in splitupdata:
             
     bagsAllocation[i[0] + i[1]] = temp2
 
-print(rawdata)
-print(splitupdata)
-print(bagsAllocation)
-
 count = 0
 finalcount = -1
 bags = []
