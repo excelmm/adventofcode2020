@@ -23,6 +23,6 @@ for i in range(len(ids) - 1):
     for j in range(i + 1, len(ids)):
         if abs(ids[j] - ids[i]) == 2:
             if ((ids[j] + ids[i]) // 2) not in ids:
-                print(ids[i], ids[j])
+                print((ids[i] + ids[j]) // 2)
             
             
