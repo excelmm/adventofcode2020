@@ -3,11 +3,8 @@ import copy
 with open("input.txt", "r") as f:
     input = f.read().splitlines()
 
-inputcopy = copy.deepcopy(input)
 executed = [0]*len(input)
-accumulator = 0
-swapindex = 0
-i = 0
+accumulator, swapindex, i = 0, 0, 0
 
 while True:
     if input[swapindex][0:3] != 'jmp' and input[swapindex][0:3] != 'nop':
