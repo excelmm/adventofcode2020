@@ -32,10 +32,6 @@ for i in inputs:
 
 count = 0
 
-print(inputs)
-print(inputs2)
-
-
 for i in inputs2:
     valid = 0
     byr = 0
@@ -97,7 +93,6 @@ for i in inputs2:
                 break
             valid += 1
             pid += 1
-        print(i, valid)
     if valid >= 7 and byr == 1 and iyr == 1 and eyr == 1 and hgt == 1 and hcl == 1 and ecl == 1 and pid == 1:
         count += 1
 
