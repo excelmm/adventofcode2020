@@ -6,19 +6,13 @@ def main():
     for i in inputraw:
         input.append(int(i))
 
-    preamble = []
-    for i in range(25):
-        preamble.append(input[i])
-
-    preamblesums = calculate(preamble)
+    preamblesums = calculate(input[0:25])
 
     for i in range(25, len(input)):
         if (input[i]) not in preamblesums:
             print(input[i])
             exit(0)
-        preamble.append(input[i])
-        preamble.pop(0)
-        preamblesums = calculate(preamble)
+        preamblesums = calculate(input[i - 24: i + 1])
 
     print(preamblesums)
 
