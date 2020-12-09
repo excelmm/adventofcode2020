@@ -6,20 +6,14 @@ def main():
     for i in inputraw:
         input.append(int(i))
 
-    preamble = []
-    for i in range(25):
-        preamble.append(input[i])
-
-    preamblesums = calculate(preamble)
+    preamblesums = calculate(input[0:25])
     sumtofind = 0
 
     for i in range(25, len(input)):
         if (input[i]) not in preamblesums:
             sumtofind = input[i]
             break
-        preamble.append(input[i])
-        preamble.pop(0)
-        preamblesums = calculate(preamble)
+        preamblesums = calculate(input[i - 24: i + 1])
 
     conset = []
     for i in range(len(input) - 1):
