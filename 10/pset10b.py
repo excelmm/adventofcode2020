@@ -1,4 +1,3 @@
-import time
 count = 0
 database = {}
 
