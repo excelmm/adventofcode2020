@@ -25,6 +25,7 @@ public class pset5b {
             seats.add(row * 8 + col);
         }
         sc.close();
+        
         for (int i = 0; i < seats.size() - 1; i++) {
             for (int j = i + 1; j < seats.size(); j++) {
                 if (Math.abs(seats.get(i) - seats.get(j)) == 2) {
