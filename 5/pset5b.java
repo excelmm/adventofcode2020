@@ -9,7 +9,6 @@ public class pset5b {
         
         File file = new File("input.txt");
         Scanner sc = new Scanner(file);
-        int max = 0;
         ArrayList<Integer> seats = new ArrayList<Integer>();
         while(sc.hasNext()) {
             int multiplier = 64, row = 0, col = 0;
