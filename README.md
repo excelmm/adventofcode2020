@@ -5,7 +5,7 @@ Currently *mostly* python - will post Java and C++ solutions soon (as I'm curren
 
 | Problem Set | Python | Java | C++ | Go | Kotlin | Swift |
 | -- | -- | -- | -- | -- | -- | -- |
-| 1a | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 1a | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |  |  |
 | 1b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
 | 2a | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
 | 2b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
