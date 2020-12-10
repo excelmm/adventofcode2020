@@ -5,25 +5,26 @@ Currently *mostly* python - will post Java and C++ solutions soon (as I'm curren
 
 | Problem Set | Python | Java | C++ | Go | Kotlin | Swift |
 | -- | -- | -- | -- | -- | -- | -- |
-| 1a | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |  |  |
-| 1b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 2a | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 2b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 3a | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 3b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 4a | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 4b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 5a | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 5b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 6a | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 6b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 7a | :heavy_check_mark: |  |  |  |  |  |
-| 7b | :heavy_check_mark: |  |  |  |  |  |
-| 8a | :heavy_check_mark: |  |  |  |  |  |
-| 8b | :heavy_check_mark: |  |  |  |  |  |
-| 9a | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 9b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 10a |  |  |  |  |  |  |
-| 10b |  |  |  |  |  |  |
-| 11a |  |  |  |  |  |  |
-| 11b |  |  |  |  |  |  |
+| 1 | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |  |  |
+| 2 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 3 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 4 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 5 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 6 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 7 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 8 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 9 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 10 |  |  |  |  |  |  |
+| 11 |  |  |  |  |  |  |
+| 12 |  |  |  |  |  |  |
+| 13 |  |  |  |  |  |  |
+| 14 |  |  |  |  |  |  |
+| 15 |  |  |  |  |  |  |
+| 16 |  |  |  |  |  |  |
+| 17 |  |  |  |  |  |  |
+| 18 |  |  |  |  |  |  |
+| 19 |  |  |  |  |  |  |
+| 20 |  |  |  |  |  |  |
+| 21 |  |  |  |  |  |  |
+| 22 |  |  |  |  |  |  |
+| 23 |  |  |  |  |  |  |
