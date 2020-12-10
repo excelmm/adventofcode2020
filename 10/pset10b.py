@@ -1,5 +1,4 @@
-from math import factorial
-
+import time
 count = 0
 database = {}
 
@@ -35,7 +34,7 @@ def main():
     database[input[-1]] = 1
 
     count = dfs(0, adj_list, input[-1])
-
+    
     print(count)
 
 
