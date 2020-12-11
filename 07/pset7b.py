@@ -20,27 +20,7 @@ def main():
                 
         bagsAllocation[i[0] + i[1]] = temp2
 
-    bags = []
-    dfs(bagsAllocation, bags, 'shinygold', 9)
     print(add('shinygold', bagsAllocation))
-
-def dfsUtil(bagsAllocation, bags, u, node, visited, road_used, parent, it):
-    if True:
-        visited.add(u)
-
-        road_used.append([parent, u])
-        bags.append([parent, u, it])
-
-        if len(bagsAllocation[u]) == 0:
-            bags.append([u, "", 0])
-
-        for x in bagsAllocation[u]:
-            dfsUtil(bagsAllocation, bags, x[1:], node, visited, road_used, u, x[0])
-
-def dfs(bagsAllocation, bags, i, node):
-    visited = set()
-    pathUsed = []
-    dfsUtil(bagsAllocation, bags, i, node, visited, pathUsed, -1, 0)
 
 
 def add(key, bagsAllocation):
