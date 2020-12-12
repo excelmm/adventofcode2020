@@ -1,6 +1,3 @@
-from os import X_OK
-
-
 with open("input.txt" , "r") as f:
     rawinput = f.read().splitlines()
 
