@@ -9,7 +9,7 @@ def main():
     for i in input:
         if 'mask' in i:
             mask = i[7:]
-            continue 
+            continue
         regex = re.search(r'mem\[(\d+)\] = (.*)', i)
         address = regex.group(1)
         numberToWrite = regex.group(2)
