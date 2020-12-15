@@ -1,4 +1,6 @@
-adventofcode2020 Solutions - probably inefficient though!
+# Advent Of Code 2020
+
+Advent Of Code 2020 Solutions - probably inefficient though!
 
 Currently *mostly* python - will post Java and C++ solutions soon (as I'm currently learning Java and C++)
 
@@ -6,7 +8,7 @@ Currently *mostly* python - will post Java and C++ solutions soon (as I'm curren
 | Problem Set | Python | Java | C++ | Go | Kotlin | Swift |
 | -- | -- | -- | -- | -- | -- | -- |
 | 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  |
-| 2 | :heavy_check_mark: | :heavy_check_mar k: |  |  |  |  |
+| 2 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
 | 3 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
 | 4 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
 | 5 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
