@@ -1,6 +1,7 @@
 .vscode/
 *.exe
 
+
 # Compiled class file
 *.class
 

@@ -6,7 +6,7 @@ Currently *mostly* python - will post Java and C++ solutions soon (as I'm curren
 | Problem Set | Python | Java | C++ | Go | Kotlin | Swift |
 | -- | -- | -- | -- | -- | -- | -- |
 | 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  |
-| 2 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
+| 2 | :heavy_check_mark: | :heavy_check_mar k: |  |  |  |  |
 | 3 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
 | 4 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
 | 5 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
