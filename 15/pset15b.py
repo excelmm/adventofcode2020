@@ -1,4 +1,4 @@
-NUM = 2020
+NUM = 30000000
 
 with open("input.txt", "r") as f:
     rawinput = f.read().splitlines()
