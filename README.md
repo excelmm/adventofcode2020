@@ -22,7 +22,7 @@ Currently *mostly* python - will post Java and C++ solutions soon (as I'm curren
 | 13 | :heavy_check_mark: |  |  |  |  |  |
 | 14 | :heavy_check_mark: |  |  |  |  |  |
 | 15 | :heavy_check_mark: |  |  |  |  |  |
-| 16 |  |  |  |  |  |  |
+| 16 | :heavy_check_mark: |  |  |  |  |  |
 | 17 |  |  |  |  |  |  |
 | 18 |  |  |  |  |  |  |
 | 19 |  |  |  |  |  |  |
