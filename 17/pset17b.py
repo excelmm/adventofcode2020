@@ -25,7 +25,6 @@ def main():
             space[MIDDLE][MIDDLE][index - len(rawinput) // 2 + MIDDLE][indexj- len(rawinput) // 2 + MIDDLE] = j
             
     for iteration in range(6):
-        print(iteration)
         space2 = copy.deepcopy(space)
         for indexa, a in enumerate(space): # For every 3d superslice
             for indexi, i in enumerate(a): # For every 2d slice
