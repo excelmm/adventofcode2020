@@ -5,9 +5,9 @@ Advent Of Code 2020 Solutions - probably inefficient though!
 Currently *mostly* python - will post Java and C++ solutions soon (as I'm currently learning Java and C++)
 
 
-| Problem Set | Python | Java | C++ | Go | Kotlin | Swift |
+| Problem Set | Python | Java | C++ | Go | Kotlin | JavaScript |
 | -- | -- | -- | -- | -- | -- | -- |
-| 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  |
+| 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |
 | 2 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
 | 3 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
 | 4 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
