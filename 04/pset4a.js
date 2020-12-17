@@ -1,24 +1,16 @@
 const fs = require('fs');
-const raw_input = fs.readFileSync('input.txt', {encoding: 'utf-8'}).split("\n").filter(x => x);
-const lines = [];
+const raw_input = fs.readFileSync('input.txt', {encoding: 'utf-8'}).split('\n\r').filter(x => x);
 const required = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid'];
 
-var input = '';
+var answer = 0;
 for (const line of raw_input) {
-    if (line == '\r') {
-        lines.push(input);
-        input = '';
-        continue;
+    var count = 0;
+    const list = line.split(/\s+/g).filter(x => x);
+    for (const field of list) {
+        const matches = field.match('(\\w+):(.*)');
+        const name = matches[1];
+        if (required.indexOf(name) != -1) ++count;
     }
-    input += line;
+    if (count >= 7) ++answer;
 }
-lines.push(input);
-
-var count = 0;
-for (const line of lines) {
-    var i = 0;
-    for (const item of required)
-        if (line.split(item).length - 1) ++i;
-    if (i >= 7) ++count;
-}
-console.log(count);
+console.log(answer);

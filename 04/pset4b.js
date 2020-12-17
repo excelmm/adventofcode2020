@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { type } = require('os');
 const raw_input = fs.readFileSync('input.txt', {encoding: 'utf-8'}).split('\n\r').filter(x => x);
 const eyes = ['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth'];
 
