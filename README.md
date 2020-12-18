@@ -5,28 +5,29 @@ Advent Of Code 2020 Solutions - probably inefficient though!
 Currently *mostly* python - will post Java and C++ solutions soon (as I'm currently learning Java and C++)
 
 
-| Problem Set | Python | Java | C++ | Go | Kotlin | JS |
-| -- | -- | -- | -- | -- | -- | -- |
-| 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |
-| 2 | :heavy_check_mark: | :heavy_check_mark: |  |  |  | :heavy_check_mark: |
-| 3 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 4 | :heavy_check_mark: | :heavy_check_mark: |  |  |  | :heavy_check_mark: |
-| 5 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 6 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 7 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 8 | :heavy_check_mark: |  |  |  |  |  |
-| 9 | :heavy_check_mark: | :heavy_check_mark: |  |  |  |  |
-| 10 | :heavy_check_mark: |  |  |  |  |  |
-| 11 | :heavy_check_mark: |  |  |  |  |  |
-| 12 | :heavy_check_mark: |  |  |  |  |  |
-| 13 | :heavy_check_mark: |  |  |  |  |  |
-| 14 | :heavy_check_mark: |  |  |  |  |  |
-| 15 | :heavy_check_mark: |  |  |  |  |  |
-| 16 | :heavy_check_mark: |  |  |  |  |  |
-| 17 | :heavy_check_mark: |  | :heavy_check_mark: |  |  |  |
-| 18 |  |  |  |  |  |  |
-| 19 |  |  |  |  |  |  |
-| 20 |  |  |  |  |  |  |
-| 21 |  |  |  |  |  |  |
-| 22 |  |  |  |  |  |  |
-| 23 |  |  |  |  |  |  |
+| Day | Python   | Java     | C++      | Go       | Kotlin   | JS       |
+| --- | -------- | -------- | -------- | -------- | -------- | -------- |
+| 1   | &#10004; | &#10004; | &#10004; | &#10004; |          | &#10004; |
+| 2   | &#10004; | &#10004; |          |          |          | &#10004; |
+| 3   | &#10004; | &#10004; |          |          |          |          |
+| 4   | &#10004; | &#10004; |          |          |          | &#10004; |
+| 5   | &#10004; | &#10004; |          |          |          |          |
+| 6   | &#10004; | &#10004; |          |          |          |          |
+| 7   | &#10004; | &#10004; |          |          |          |          |
+| 8   | &#10004; |          |          |          |          |          |
+| 9   | &#10004; | &#10004; |          |          |          |          |
+| 10  | &#10004; |          |          |          |          |          |
+| 11  | &#10004; |          |          |          |          |          |
+| 12  | &#10004; |          |          |          |          |          |
+| 13  | &#10004; |          |          |          |          |          |
+| 14  | &#10004; |          |          |          |          |          |
+| 15  | &#10004; |          |          |          |          |          |
+| 16  | &#10004; |          |          |          |          |          |
+| 17  | &#10004; |          | &#10004; |          |          |          |
+| 18  |          |          |          |          |          |          |
+| 19  |          |          |          |          |          |          |
+| 20  |          |          |          |          |          |          |
+| 21  |          |          |          |          |          |          |
+| 22  |          |          |          |          |          |          |
+| 23  |          |          |          |          |          |          |
+ 
