@@ -1,6 +1,11 @@
 .vscode/
 *.exe
 
+19/*
+!input.txt
+!pset19a.py
+!pset19b.py
+
 
 # Compiled class file
 *.class
