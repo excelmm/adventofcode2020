@@ -96,37 +96,6 @@ def getEdges(tiles):
     else:
         result.append(leftreversed)
 
-    # print(result)
-    return result
-
-
-def getAllEdges(tiles):
-
-    result = []
-
-    top = getTop(tiles)
-    right = getRight(tiles)
-    bottom = getBottom(tiles)
-    left = getLeft(tiles)
-    topreversed = getTop(tiles)
-    topreversed.reverse()
-    rightreversed = getRight(tiles)
-    rightreversed.reverse()
-    bottomreversed = getBottom(tiles)
-    bottomreversed.reverse()
-    leftreversed = getLeft(tiles)
-    leftreversed.reverse()
-
-    result.append(top)
-    result.append(topreversed)
-    result.append(right)
-    result.append(rightreversed)
-    result.append(bottom)
-    result.append(bottomreversed)
-    result.append(left)
-    result.append(leftreversed)
-
-    # print(result)
     return result
 
 
@@ -151,26 +120,6 @@ def getLeft(image):
     for i in image:
         result.append(i[0])
     return list (result)
-
-
-def printImage(image):
-    """ FOR PRINTING """
-    for j in image:             # For each row in image
-        for k in j:             # For each column in row
-            print(k, end="")
-        print("")
-
-
-def printArrangement(arrangement):
-    """ FOR PRINTING """
-    for tiles in arrangement:           # For each row of images
-        for i in tiles:                 # For each image in row
-            for j in i:             # For each row in image
-                for k in j:             # For each column in row
-                    print(k, end="")
-                print("")
-            print("")
-        print("")
 
 
 if __name__ == "__main__":
