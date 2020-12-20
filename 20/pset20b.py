@@ -24,7 +24,6 @@ def main():
             for k in j:
                 if k == '#':
                     count += 1
-    print(count)
 
     print(guess(count, 6)) # too high
     print(guess(count, 30)) # too high
