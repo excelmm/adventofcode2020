@@ -1,7 +1,7 @@
 import copy
 
 def main():
-    with open("C:\\Users\\Excel PC\\Documents\\GitHub\\excelmm\\adventofcode2020\\22\\input.txt", "r") as f:
+    with open("input.txt", "r") as f:
         rawinput = f.read()
 
     deck_p1 = rawinput.split("\n\n")[0].split("\n")[1:]
