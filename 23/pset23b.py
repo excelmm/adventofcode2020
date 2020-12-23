@@ -60,6 +60,8 @@ for i in range(10000000):
 
     current = current.next
 
+    print(current.val)
+
 while current.val != 1:
     current = current.next
 
