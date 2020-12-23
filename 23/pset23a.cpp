@@ -3,16 +3,16 @@
 #include <map>
 #include <algorithm>
 #include <iterator>
-#include "Node.cpp"
+#include "C:\\Users\\Excel PC\\Documents\\GitHub\\excelmm\\adventofcode2020\\23\\Node.cpp"
 
 using namespace std;
 
-const int MOVES = 10000000;
-const int CUPS = 1000000;
+const int MOVES = 100;
+const int CUPS = 9;
 
 int main() {
 
-    ifstream myfile("input.txt");
+    ifstream myfile("C:\\Users\\Excel PC\\Documents\\GitHub\\excelmm\\adventofcode2020\\23\\input.txt");
     std::map<int, Node*> nodes;
     std::string inputString;
     getline(myfile, inputString);
@@ -21,16 +21,6 @@ int main() {
     Node* ptrPrev = new Node();
     for (char iChar: inputString) {
         int i = iChar - '0';
-        Node* ptrNew = new Node(i, NULL, NULL);
-        if (ptrPrev->val) {
-            ptrPrev->next = ptrNew;
-        }
-        nodes.insert(std::pair<int, Node*>(i, ptrNew));
-        ptrPrev = ptrNew;
-    }
-
-    // Add the rest of the numbers from 1 - CUPS to the Linked List
-    for (int i = inputString.length() + 1; i <= CUPS; ++i) {
         Node* ptrNew = new Node(i, NULL, NULL);
         if (ptrPrev->val) {
             ptrPrev->next = ptrNew;
@@ -67,8 +57,12 @@ int main() {
     while (curr->val != 1) {
         curr = curr->next;
     }
+    curr = curr->next;
     
-    cout << (long long) curr->next->val * (long long) curr->next->next->val << endl;
+    while (curr->val != 1) {
+        cout << curr->val;
+        curr = curr->next;
+    }
 
     return 0;
 }
