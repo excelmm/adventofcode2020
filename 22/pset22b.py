@@ -32,16 +32,16 @@ def countAnswer(deck):
 def play(deck_p1, deck_p2):
 
     winner = ""
-    visiteddecks_p1 = []
-    visiteddecks_p2 = []
+    visiteddecks_p1 = set()
+    visiteddecks_p2 = set()
     
     while (len(deck_p1) and len(deck_p2)):
 
-        if deck_p1 in visiteddecks_p1 and deck_p2 in visiteddecks_p2:
+        if tuple(deck_p1) in visiteddecks_p1 and tuple(deck_p2) in visiteddecks_p2:
             return "p1"
 
-        visiteddecks_p1.append(copy.deepcopy(deck_p1))
-        visiteddecks_p2.append(copy.deepcopy(deck_p2))
+        visiteddecks_p1.add(tuple(deck_p1))
+        visiteddecks_p2.add(tuple(deck_p2))
 
         card_p1 = deck_p1.pop(0)
         card_p2 = deck_p2.pop(0)
