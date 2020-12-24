@@ -30,6 +30,6 @@ Currently *mostly* python - will post Java and C++ solutions soon (as I'm curren
 | 21  | &#10004; |          |          |          |          |          |
 | 22  | &#10004; |          |          |          |          |          |
 | 23  | &#10004; |          | &#10004; |          |          |          |
-| 24  |          |          |          |          |          |          |
+| 24  | &#10004; |          |          |          |          |          |
 | 25  |          |          |          |          |          |          |
  
