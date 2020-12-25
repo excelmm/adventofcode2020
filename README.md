@@ -31,5 +31,5 @@ Currently *mostly* python - will post Java and C++ solutions soon (as I'm curren
 | 22  | &#10004; |          |          |          |          |          |
 | 23  | &#10004; |          | &#10004; |          |          |          |
 | 24  | &#10004; |          |          |          |          |          |
-| 25  |          |          |          |          |          |          |
+| 25  | &#10004; |          |          |          |          |          |
  
